@@ -4,3 +4,4 @@ htmlcov/
 .tox/
 .coverage
 coverage_html_report/
+dist/

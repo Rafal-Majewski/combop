@@ -1,9 +1,12 @@
 [tool.poetry]
-name = "python_project_template"
+name = "combop"
 version = "0.0.0"
-description = "Python project template"
+description = "Combop - A combinatorial optimization library"
 authors = ["Rafał Majewski <goodheropl@gmail.com>"]
-license = "UNLICENSED"
+license = "CC0-1.0"
+packages = [
+	{ include = "combop", from = "src" },
+]
 
 [tool.poetry.dependencies]
 python = "^3.10"
