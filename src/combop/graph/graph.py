@@ -10,12 +10,10 @@ E = typing.TypeVar("E", bound=Edge)
 
 
 class Graph(abc.ABC, typing.Generic[V, E]):
-    @property
     @abc.abstractmethod
-    def vertices(self) -> set[V]:  # pragma: no cover
+    def get_vertices(self) -> set[V]:  # pragma: no cover
         pass
 
-    @property
     @abc.abstractmethod
-    def edges(self) -> set[E]:  # pragma: no cover
+    def get_edges(self) -> set[E]:  # pragma: no cover
         pass
