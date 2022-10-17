@@ -5,3 +5,4 @@ htmlcov/
 .coverage
 coverage_html_report/
 dist/
+.vscode/
