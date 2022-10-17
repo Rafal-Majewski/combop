@@ -1,0 +1,6 @@
+__pycache__/
+htmlcov/
+.mypy_cache/
+.tox/
+.coverage
+coverage_html_report/
