@@ -5,7 +5,7 @@ description = "Combop - A combinatorial optimization library"
 authors = ["Rafał Majewski <goodheropl@gmail.com>"]
 license = "CC0-1.0"
 packages = [
-	{ include = "combop", from = "src" },
+    { include = "combop", from = "src" },
 ]
 
 [tool.poetry.dependencies]

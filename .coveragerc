@@ -3,4 +3,4 @@ directory = coverage_html_report
 [run]
 
 omit =
-	*/__main__.py
+    */__main__.py
